@@ -22,3 +22,15 @@
 .backG-prueba{
     background-color: aquamarine;
 }
+
+
+@media (min-width: 1080px) {
+    #nav-bar-media {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 80px;
+    }
+}
