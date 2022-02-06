@@ -1,4 +1,10 @@
-@media (max-width: 485px) {
+@media (max-width: 1079px) {
+  #asideMedium {
+    display: none;
+  }
+}
+
+@media (max-width: 575px) {
   .navMedium {
     border-bottom: 1px solid gray;
   }
@@ -7,6 +13,9 @@
     margin-right: 11rem;
     margin-top: .5rem;
     margin-bottom: .3rem;
+  }
+  #asideMedium {
+    display: none;
   }
 }
 
