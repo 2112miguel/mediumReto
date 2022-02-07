@@ -1,8 +1,4 @@
 @media (min-width: 1080px) {
-  .navMedium {
-    background-color: aquamarine;
-    display: none;
-  }
   .iconMedium {
     display: none;
   }
@@ -23,7 +19,6 @@
   }
   .iconMedium {
     margin-left: .6rem;
-    margin-right: 11rem;
     margin-top: .5rem;
     margin-bottom: .3rem;
   }
