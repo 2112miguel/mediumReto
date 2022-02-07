@@ -1,3 +1,16 @@
+@media (min-width: 1080px) {
+  .navMedium {
+    background-color: aquamarine;
+    display: none;
+  }
+  .iconMedium {
+    display: none;
+  }
+  #btnNavMedium section {
+    display: none;
+  }
+}
+
 @media (max-width: 1079px) {
   #asideMedium {
     display: none;
