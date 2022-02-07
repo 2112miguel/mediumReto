@@ -62,4 +62,12 @@
   width: 2rem;
   height: 2rem;
 }
+
+.btnsPostReco {
+  border-bottom: 1px solid #EBEBEB;
+}
+
+#asideMedium {
+  border-left: 1px solid #EBEBEB;
+}
 /*# sourceMappingURL=main.css.map */
