@@ -1,24 +1,43 @@
-@media (max-width: 485px) {
-  .navMedium {
-    border-bottom: 1px solid gray;
+@media (min-width: 1080px) {
+  #nav-bar-media {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 80px;
   }
-  .iconMedium {
-    margin-left: .6rem;
-    margin-right: 11rem;
-    margin-top: .5rem;
-    margin-bottom: .3rem;
+  #container-center-nav {
+      display: flex;
+      flex-direction: column;
+      height: 20rem;
+  }
+  #disappear-desktop {
+      display: none;
   }
 }
 
-.iconMedi {
+@media (max-width: 1079px) {
+  #icon-medium {
+      display: none;
+  }
+  #disappear-mobile {
+      display: none;
+  }
+}
+
+nav svg {
+  color: rgb(165, 165, 165);
+}
+
+hr {
+  width: 30px;
+}
+
+.iconMedi{
   background-size: 35px 35px;
   display: block;
   width: 35px;
   height: 35px;
-  margin: 0px;
+  margin: 0px;   
 }
-
-.backG-prueba {
-  background-color: aquamarine;
-}
-/*# sourceMappingURL=main.css.map */
