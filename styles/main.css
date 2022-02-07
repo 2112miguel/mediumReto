@@ -27,6 +27,10 @@
   }
 }
 
+.navMedium {
+  background-color: white;
+}
+
 .iconMedi {
   background-size: 35px 35px;
   display: block;
