@@ -7,11 +7,32 @@
     #btnNavMedium section{
         display: none;
     }
+
+    #nav-bar-media {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 80px;
+    }
+    #container-center-nav {
+        display: flex;
+        flex-direction: column;
+        height: 20rem;
+      }
+      #disappear-desktop {
+          display: none;
+      }
 }
 
 @media (max-width: 1079px){
     #asideMedium{
         display: none
+    }
+
+    #disappear-mobile {
+        display: none;
     }
 }
 
@@ -39,6 +60,14 @@
 .navMedium{
     background-color: white;
 }
+
+nav svg {
+    color: rgb(165, 165, 165);
+  }
+  
+  hr {
+    width: 30px;
+  }
 
 .iconMedi{
     background-size: 35px 35px;
@@ -79,3 +108,22 @@
 #asideMedium{
     border-left: 1px solid #EBEBEB;
 }
+
+#p-bold p {
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+  
+  #p-bold span {
+    font-size: 12px;
+  }
+  
+  #p-bold br {
+    margin-bottom: 0px;
+  }
+  
+  #last-text {
+    color: gray;
+    font-size: 12px;
+    width: 190px;
+  }
