@@ -152,5 +152,9 @@ hr {
   width: 190px;
 }
 
+.borderBot {
+  border-bottom: 1px solid gray;
+}
+
 /* CSS VICTOR */
 /*# sourceMappingURL=main.css.map */

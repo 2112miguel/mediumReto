@@ -14,7 +14,7 @@
 <body>
     <nav class="d-flex flex-row navMedium justify-content-between col-12 col-sm-12 position-fixed top-0">
         <section class="iconMedium">
-            <a href="" class="iconMedi" style="background-image: url(https://miro.medium.com/max/700/1*psYl0y9DUzZWtHzFJLIvTw.png);"></a>
+            <a href="./index.html" class="iconMedi" style="background-image: url(https://miro.medium.com/max/700/1*psYl0y9DUzZWtHzFJLIvTw.png);"></a>
         </section>
         <article id="btnNavMedium" class="d-flex flex-row align-items-center">
             <section class="btnNavMediumNoti">
@@ -26,9 +26,120 @@
         </article>
     </nav>
     <main class="container ">
-        <section class="row mt-5">
+        <section class="row m-5">
             <!--Primer columna en donde aparece el scroll-->
-
+            <article class="col-xxl-7 col-xl-7 col-lg-8 col-md-12 col-12">
+              <section class="d-flex flex-column">
+                  <article class="h1">Notifications</article>
+                  <section class="d-flex flex-row borderBot">
+                    <article class="h5 m-3 text-muted">All</article>
+                    <article class="h5 m-3 text-muted">Responses</article>
+                  </section>
+                  <article class="m-4">You're all caugth up.</article>
+              </section>
+            </article>
+            <!--Segunda column responsiva desaparece-->
+            <section id="asideMedium" class="ms-0 col col-xxl-3 col-md-5 col-xl-3 col-lg-4 ">
+                <button type="button" class="btn btn-dark rounded-pill w-100 mb-4">Upgrade</button>
+                <input type="searchBox" placeholder="Search" class="inputSear rounded-pill mb-4">
+                <div class="alert alert-primary alert-dismissible fade show text-dark" role="alert">
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <strong>Writing on Medium</strong>
+                    <p>
+                        New writer FAQ
+                    </p>
+                    <p>
+                        Expert writing advie
+                    </p>
+                    <p>
+                        Grow your readship
+                    </p>
+                    <button type="button" class="btn btn-dark rounded-pill">Start writing</button>
+                </div>
+                <div class="card text-center border border-white" style="width: 18rem;">
+                    <div class="card-body">
+                      <article>
+                        <img src="https://miro.medium.com/max/700/1*psYl0y9DUzZWtHzFJLIvTw.png" class=" p-0 iconSizeSN" alt="...">
+                        <i class="bi bi-plus-lg"></i>
+                        <i class="bi bi-twitter text-primary iconSizeSN"></i>
+                      </article>
+                      <p class="card-text">Discover Medium writers you already follow on Twitter.</p>
+                      <a href="#" class="btn btn-dark rounded-pill bg-transparent text-dark"><i class="bi bi-twitter text-primary"></i>Connect to Twitter</a>
+                      <section class="mt-4 "><a href="" class="text-muted">Maybe Later</a></section>
+                    </div>
+                </div>
+                <hr style="width: 85%">
+                <div class="d-flex flex-column align-items-center mb-3">
+                    <h5>Recommended Topics</h5>
+                    <div class="d-flex flex-wrap p-3">
+                        <button class="btn btn-light rounded-pill m-1">
+                            Business
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Productivity
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Money
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Psychology
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Mindfulness
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Art
+                        </button>
+                        <button class="btn btn-light rounded-pill m-1">
+                            Technology
+                        </button>
+                    </div>
+                    <h5>Who to follow</h5>
+                    <div id="p-bold" class="d-flex align-items-top m-2">
+                        <img alt="Cory Doctorow" class="l eq gv gw gx gy rounded-circle" src="https://miro.medium.com/fit/c/64/64/0*ohRxgNPUyuFod_kY.jpeg" width="32" height="32">
+                        <div class="d-flex flex-column text-break mx-4">
+                            <p>Cory<br>Doctorow</p>
+                            <span>Writter,<br>blogger</span>
+                        </div>
+                        <button class="btn btn-light rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                    <div id="p-bold" class="d-flex align-items-top m-2">
+                        <img alt="David Wineberg" class="l eq gv gw gx gy rounded-circle" src="https://miro.medium.com/fit/c/64/64/0*QqB5to6lYDCrJtdH.jpeg" width="32" height="32">
+                        <div class="d-flex flex-column text-break mx-4">
+                            <p>David<br>Wineberg</p>
+                            <span>Author,<br>The Straight dop...</span>
+                        </div>
+                        <button class="btn btn-light rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                    <div id="p-bold" class="d-flex align-items-top m-2">
+                        <img alt="Luke Burgis" class="l eq gv gw gx gy rounded-circle" src="https://miro.medium.com/fit/c/64/64/1*SUaHRoDjE6Jump3lwYWPSw.jpeg" width="32" height="32">
+                        <div class="d-flex flex-column text-break mx-4">
+                            <p>Luke<br>Burgls</p>
+                            <span>Author<br>of "WANTING:...</span>
+                        </div>
+                        <button class="btn btn-light rounded-pill">
+                            Follow
+                        </button>
+                    </div>
+                    <br>
+                    <h5>Reading list</h5>
+                    <div class="d-flex px-4">
+                        <p>
+                            Click the
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="lr ls"><path d="M18 2.5a.5.5 0 0 1 1 0V5h2.5a.5.5 0 0 1 0 1H19v2.5a.5.5 0 1 1-1 0V6h-2.5a.5.5 0 0 1 0-1H18V2.5zM7 7a1 1 0 0 1 1-1h3.5a.5.5 0 0 0 0-1H8a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4v-8.5a.5.5 0 0 0-1 0v7.48l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V7z" fill="#292929"></path></svg>
+                            on any story to eastly add it to your reading list or a custom list that you can share.
+                        </p>
+                    </div>
+                    <br>
+                    <a href="" id="last-text" class="text-decoration-none">
+                        Help Status Writers Blog Careers Privacy Terms About Knowable
+                    </a>
+                </div>
+            </section>
         </section>
     </main>
     
@@ -38,17 +149,17 @@
             <a href="/index.html">
                 <svg width="24" height="24" fill="none" aria-label="home"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.72 2.93a.45.45 0 0 1 .56 0l.34-.43-.34.43 9.37 7.5a.56.56 0 1 0 .7-.86l-9.38-7.5a1.55 1.55 0 0 0-1.94 0l-9.38 7.5a.56.56 0 0 0 .7.86l9.37-7.5zm7.17 9.13v-1.4l.91.69a.5.5 0 0 1 .2.4V20a2 2 0 0 1-2 2h-4a.5.5 0 0 1-.5-.5V17a1 1 0 0 0-1-1h-1a1 1 0 0 0-1 1v4.5a.5.5 0 0 1-.5.5H6a2 2 0 0 1-2-2v-8.25a.5.5 0 0 1 .2-.4l.91-.68V20c0 .5.4.89.89.89h3.39V17a2.11 2.11 0 0 1 2.11-2.11h1A2.11 2.11 0 0 1 14.61 17v3.89H18a.89.89 0 0 0 .89-.89v-7.95z" fill="#A8A8A8"></path></svg>
             </a>
-            <a href="" id="disappear-mobile">
+            <a href="./noti.html" id="disappear-mobile">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Notifications"><path d="M15 18.5a3 3 0 1 1-6 0" stroke="currentColor" stroke-linecap="round"></path><path d="M5.5 10.53V9a6.5 6.5 0 0 1 13 0v1.53c0 1.42.56 2.78 1.57 3.79l.03.03c.26.26.4.6.4.97v2.93c0 .14-.11.25-.25.25H3.75a.25.25 0 0 1-.25-.25v-2.93c0-.37.14-.71.4-.97l.03-.03c1-1 1.57-2.37 1.57-3.79z" stroke="currentColor" stroke-linejoin="round"></path></svg>
             </a>
             <a href="" id="disappear-desktop">
                 <svg width="25" height="24" fill="none" aria-label="search"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.8 10.69a6.95 6.95 0 1 1 13.9 0 6.95 6.95 0 0 1-13.9 0zm6.95-8.05a8.05 8.05 0 1 0 5.13 14.26l3.75 3.75a.56.56 0 1 0 .79-.79l-3.73-3.73a8.05 8.05 0 0 0-5.94-13.5z" fill="#A8A8A8"></path></svg>
             </a>
-            <a href="">
+            <a href="./list.html">
                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" class="cu" aria-label="Reading list"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 3a2 2 0 0 0-2 2v1H6a2 2 0 0 0-2 2v14a.5.5 0 0 0 .8.4l5.7-4.4 5.7 4.4a.5.5 0 0 0 .8-.4V8a2 2 0 0 0-2-2H9V5a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12a.5.5 0 1 0 1 0V5a2 2 0 0 0-2-2h-9zM5 8a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v12.98l-5.2-4a.5.5 0 0 0-.6 0l-5.2 4V8z" fill="#757575"></path></svg>
             </a>
             <a href="" id="disappear-desktop">
-                <img alt="Arnold Esquivel" class="l gh jf jg jp co" src="https://miro.medium.com/fit/c/48/48/1*dmbNkD5D-u45r44go_cf0g.png" width="24" height="24">
+                <img alt="Arnold Esquivel" class="l gh jf jg jp co rounded-circle" src="https://thumbs.dreamstime.com/z/una-codificaci%C3%B3n-cero-del-pirata-inform%C3%A1tico-129896215.jpg" width="24" height="24">
             </a>
             <a href="" id="disappear-mobile">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-label="Stories"><path d="M4.75 21.5h14.5c.14 0 .25-.11.25-.25V2.75a.25.25 0 0 0-.25-.25H4.75a.25.25 0 0 0-.25.25v18.5c0 .14.11.25.25.25z" stroke="currentColor"></path><path d="M8 8.5h8M8 15.5h5M8 12h8" stroke="currentColor" stroke-linecap="round"></path></svg>
@@ -59,7 +170,7 @@
             </a>
         </div>
         <a href="" id="disappear-mobile">
-            <img alt="Arnold Esquivel" class="l gh jf jg jp co mb-4" src="https://miro.medium.com/fit/c/48/48/1*dmbNkD5D-u45r44go_cf0g.png" width="24" height="24">
+            <img alt="Arnold Esquivel" class="l gh jf jg jp co mb-4 rounded-circle" src="https://thumbs.dreamstime.com/z/una-codificaci%C3%B3n-cero-del-pirata-inform%C3%A1tico-129896215.jpg" width="24" height="24">
         </a>
     </nav>
 
