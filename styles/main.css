@@ -101,10 +101,6 @@ hr {
   margin: 0px;
 }
 
-.backG-prueba {
-  background-color: aquamarine;
-}
-
 .inputSear {
   margin-right: 1px;
   font-size: 18px;
@@ -153,7 +149,7 @@ hr {
 }
 
 .borderBot {
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #EBEBEB;
 }
 
 /* CSS VICTOR */
